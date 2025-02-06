@@ -44,9 +44,10 @@ Armazena os dados de entrega de cada pedido, incluindo status e código de rastr
 
 Quadrinhos:
 Armazena as informações dos quadrinhos disponíveis para venda (título, autor, preço).
-Pedidos_Quadrinhos:
 
+Pedidos_Quadrinhos:
 Tabela de relacionamento entre pedidos e quadrinhos, indicando quais quadrinhos foram comprados em cada pedido.
+
 Tecnologias Utilizadas
 MySQL: Banco de dados relacional para gerenciamento de dados.
 MySQL Workbench: Ferramenta utilizada para modelagem de banco de dados.
