@@ -27,22 +27,22 @@ Estrutura do Banco de Dados
 O banco de dados é composto pelas seguintes tabelas:
 
 Clientes:
-
 Armazena as informações dos clientes, como nome, tipo de cliente (PF ou PJ) e contato.
+
 Formas de Pagamento:
-
 Armazena as formas de pagamento possíveis que podem ser associadas aos clientes.
+
 Clientes_Formas_de_Pagamento:
-
 Tabela de relacionamento entre clientes e formas de pagamento (múltiplas formas por cliente).
+
 Pedidos:
-
 Armazena as informações sobre cada pedido realizado, como cliente associado, status e total.
+
+
 Entregas:
-
 Armazena os dados de entrega de cada pedido, incluindo status e código de rastreio.
-Quadrinhos:
 
+Quadrinhos:
 Armazena as informações dos quadrinhos disponíveis para venda (título, autor, preço).
 Pedidos_Quadrinhos:
 
